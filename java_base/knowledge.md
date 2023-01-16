@@ -54,3 +54,52 @@ TomCat服务器创建后通过访问对应的URL地址，实现Servlet接口
   - 会改变访问地址
   - 等价于浏览器两次访问服务器
   - 简便写法为`setResender`,默认设置302头，只需要设置location即可
+
+### jsp（Java Service Pages）
+
+访问地址与html页面一致
+
+在第一次访问时，会被Tomcat服务器翻译成字节码，并被编译成对应的类。这个被翻译的类汇**间接继承(HttpJspBase直接继承Servlet类)**Servlet类，jsp就是通过封装将写好的页面（jsp）进行模拟生成动态html（翻译后的类中写的也是用字符流写入html）
+
+## javaEE三层架构
+
+### 客户端（浏览器）
+
+前端技术栈：
+
+Html+CSS+JavaScript
+
+### web层
+
+- 获取请求参数
+- 调用业务层处理业务
+- 响应数据给客户端，请求转发，重定向
+
+#### 技术栈
+
+- Servlet程序
+- WebWork
+- SpringMVC
+
+### Service业务层
+
+- 处理业务逻辑
+- 调用持久层保存到数据库
+
+#### 技术栈
+
+- SPRING框架
+
+### Dao持久层
+
+- 负责与数据库进行交互---baseCRUD
+
+#### 技术栈
+
+- Mybaits\MyBatis Plus
+- JDBC
+- JPA
+- DbUnits
+
+
+
