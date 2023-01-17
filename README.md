@@ -17,3 +17,5 @@
 - 2023.1.13 增加java-web，完成servlet服务程序API了解以及实现。
 
 - 2023.1.16 增加jsp简介，（knowledge.md）
+
+- 2023.1.17 增加EL表达式，jsp内置对象，Cookie & Session 以及session在浏览器关闭后失效的技术细节（knowledge.md）
