@@ -19,3 +19,5 @@
 - 2023.1.16 增加jsp简介，（knowledge.md）
 
 - 2023.1.17 增加EL表达式，jsp内置对象，Cookie & Session 以及session在浏览器关闭后失效的技术细节（knowledge.md）
+
+- 2023.1.18 增加Fileter过滤器，AJAX异步请求，JSON数据格式化，以及i18n国际化(Knowledge.md)
